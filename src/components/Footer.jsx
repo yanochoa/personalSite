@@ -14,10 +14,9 @@ const Wrapper = styled.footer`
 
 const Footer = () => (
   <Wrapper data-testid="footer">
-    Copyright &copy; 2019. All right reserved. Developed by Yan Ochoa using
-    Gatsby, hosted on Netlify.{" "}
-    <a href="https://github.com/yanochoa">project Github</a>, feel free to take
-    what youd like
+    Developed by Yan Ochoa using Gatsby, hosted on Netlify.{" "}
+    <a href="https://github.com/yanochoa/personalSite">Project Github</a>, Feel
+    free to take what you'd like.
   </Wrapper>
 );
 
