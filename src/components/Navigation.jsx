@@ -90,18 +90,6 @@ const Navigation = () => (
     query={query}
     render={data => (
       <Wrapper data-testid="navigation">
-        {/* <Nav>
-          {data.nav.edges.map((nav, index) => (
-            <Link
-              key={nav.node.fields.slug}
-              to={nav.node.fields.slug}
-              data-testid={`navItem-${index}`}
-              activeClassName="nav-active"
-            >
-              {nav.node.frontmatter.title}
-            </Link>
-          ))}
-        </Nav> */}
         <Name>
           <Link to="/" data-testid="home-title-link">
             {config.siteTitle}

@@ -1,0 +1,11 @@
+.project {
+  box-shadow: 5px 5px 5px #7c7c7c;
+  padding: 1.5em;
+  border: 1px solid rgb(59, 59, 59);
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  margin-bottom: 2em;
+}
+.description-left {
+  padding-left: 1em;
+}
